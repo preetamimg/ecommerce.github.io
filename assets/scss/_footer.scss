@@ -1,0 +1,143 @@
+footer {
+    & .footerHeading {
+        font-size: 16px;
+        color: $white;
+        opacity: 0.9;
+        font-weight: 500;
+        margin-bottom: 8px;
+        text-transform: uppercase;
+    }
+    & .footerLink {
+        & .footerAnchor {
+            font-size: 14px;
+            color: $white;
+            text-decoration: none;
+            font-weight: 400;
+            opacity: 0.7;
+            padding: 4px 0;
+            width: 100%;
+            display: inline-block;
+            & span {
+                font-weight: 500;
+            }
+        }
+        &.footerLogo {
+            & svg {
+                width: 120px;
+                height: 40px;
+                & path {
+                    fill: $white;
+                }
+            }
+        }
+        &.footerDesc {
+            color: $white;
+            font-size: 14px;
+            opacity: 0.7;
+        }
+        &.footerInput {
+            & .form-control {
+                font-size: 14px;
+                background-color: $dark;
+                color: $gray-200;
+                border-color: $gray-200;
+                height: 36px;
+                padding-right: 36px;
+                &::placeholder {
+                    color: $gray-200;
+                }
+                &:focus {
+                    outline: none !important;
+                    border-color: $gray-200 !important;
+                }
+            }
+            & .sendBtn {
+                height: 36px;
+                width: 36px;
+                & img {
+                    height: 22px;
+                }
+            }
+        }
+        &:hover {
+            & .footerAnchor {
+                opacity: 0.9;
+            }
+        }
+    }
+    & .downloadBtn {
+        display: inline-block;
+        padding: 0.375rem 0.875rem;
+        padding-left: 2.8125rem;
+        transition: color .25s ease-in-out,background-color .25s ease-in-out,border-color .25s ease-in-out,box-shadow .2s ease-in-out;
+        border-radius: 0.4375rem;
+        background-position: center left 0.75rem;
+        background-color: #2b3445;
+        background-size: 1.5rem 1.5rem;
+        background-repeat: no-repeat;
+        text-decoration: none;
+        & .title {
+            display: block;
+            color: #fff;
+            font-size: 1rem;
+            margin-left: -10px;
+        }
+        & .subtitle {
+            display: block;
+            margin-bottom: -0.125rem;
+            color: rgba(255,255,255,.6);
+            font-size: .6875rem;
+        }
+        &.appleDownload {
+            background-image: url(../img/download1.svg);
+        }
+        &.playDownload {
+            background-image: url(../img/download2.svg);
+        }
+        &:hover {
+            background-color: #212835;
+        }
+    }
+}
+
+
+.mobileFooter {
+    background-color: $white;
+    padding: 13px 0;
+    border-top: 1px solid $gray-300;
+    & .bottomBarLink {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        & .bottomBarLinkInner {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        & img {
+            height: 16px;
+            filter: brightness(0.5);
+        }
+        & .BottomBarText {
+            font-size: 10px;
+            color: $gray-900;
+        }
+        &.active {
+            & img {
+                filter: brightness(1);
+            }
+            & .BottomBarText {
+                color: $theme1;
+            }
+        }
+        & .cartVal {
+            height: 15px;
+            width: 15px;
+            font-size: 10px;
+            top: -5px;
+            right: -11px;
+        }
+    }
+}

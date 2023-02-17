@@ -1,0 +1,27 @@
+.loader {
+    &.active {
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        background-color: $white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 999999;
+        & span {
+            display: block;
+            width: 70px;
+            height: 70px;
+            border: 3px solid;
+            border-radius: 50%;
+            border-color: transparent $theme1 $theme1;
+            animation: cssload-spin 690ms infinite linear;
+            @keyframes cssload-spin {
+                100% {
+                transform: rotate(360deg);
+                transform: rotate(360deg);
+                }
+            }
+        }
+    }
+    }

@@ -1,0 +1,80 @@
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba($black, 0);
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  background-color: rgba($black, 0);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $gray-500;
+}
+
+.bodyWrapper {
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  & .bodyWrapperInner {
+    position: relative;
+    z-index: 1051;
+    width: 100%;
+    & .bosyWrapperMain {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      transform: translate(0, 0);
+      & .Header {
+        flex: 0 0 auto;
+      }
+      & .bodyScrollPart {
+        flex: 1 1 auto;
+        height: 100%;
+        overflow-y: auto;
+        &.stopBodyScroll {
+          overflow: hidden;
+          & .filterBackdrop {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba($black, 0.3);
+            z-index: 50;
+          }
+        }
+      }
+      & .mobileFooter {
+        flex: 0 0 auto;
+      }
+    }
+  }
+}
+
+.breadCrumBox {
+  background-color: $gray-200;
+  & .breadcrumb-item {
+    font-size: 14px;
+    & a {
+      color: $gray-600;
+      text-decoration: none;
+    }
+    &.active {
+      color: $gray-900;
+    }
+  }
+}
+
+.select2-container {
+  & .select2-results__options {
+    font-size: 13px !important;
+}
+}

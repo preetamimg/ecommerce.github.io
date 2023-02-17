@@ -1,0 +1,1504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Static Required meta tags (should be same on every page) -->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, shrink-to-fit=no" />
+    <meta name="theme-color" content="#1a73e9" />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge' />
+
+    <meta name="web-author" content="web-author-name" />
+    <meta name="googlebot" content="all">
+    <meta name="revisit-after" content="3 days">
+    <meta name="copyright" content="Site Name">
+    <meta name="language" content="English">
+    <meta name="reply-to" content="info@imgglobalinfotech.com">
+    <meta name="distribution" content="Global" />
+    <meta name="rating" content="General" />
+
+    <!-- Twitter Meta -->
+    <meta name="twitter:site" content="@miradontsoa">
+    <meta name="twitter:creator" content="@miradontsoa">
+    <meta name="twitter:card" content="summary">
+
+    <!-- Facebook Meta -->
+    <meta property="fb:app_id" content="0" />
+
+    <meta property="og:type" content="website">
+    <meta property="og:image:type" content="image/jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <!-- Dynamic Meta Tags (Should change for every page) -->
+
+    <title>Avone</title>
+
+        <!-- Required meta tags -->
+    <meta name="title" content="Title here" />
+    <meta name="discrption" content="Discrption here" />
+    <meta name="keyword" content="Keyword here" />
+
+    <!-- Twitter Meta -->
+    <meta name="twitter:title" content="Title here">
+    <meta name="twitter:description" content="Discrption here">
+    <meta name="twitter:image" content="assets/img/logo.png">
+
+    <!-- Facebook Meta -->
+    <meta property="og:url" content="">
+    <meta property="og:title" content="Title here">
+    <meta property="og:description" content="Discrption here">
+    <meta property="og:image" content="assets/img/logo.png">
+    <meta property="og:image:secure_url" content="assets/img/logo.png">
+
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo.png" />
+    <link rel="icon" type="image/x-icon" href="assets/img/logo.png" />
+    <meta name="classification" content="Title here" />
+    <link rel="canonical" href="" />
+    <!-- jquery -->
+    <script src="assets/libs/jquery/jquery.min.js"></script>
+    <!-- Bootstrap Css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- swiper css -->
+    <link rel="stylesheet" href="assets/libs/swiper/swiper-bundle.min.css">
+    <!-- select 2 css -->
+    <link rel="stylesheet" href="assets/libs/select2/select2.min.css">
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="assets/css/style.min.css">
+</head>
+<body class="vh-100 overflow-hidden" page-name="productDetailPage">
+        <div class="loader active">
+            <span></span>
+        </div>
+    <div class="bodyWrapper">
+        <div class="bodyWrapperInner h-100">
+            <div class="bosyWrapperMain h-100">
+                <!-- Header Starts Here -->
+                <div class="container-fluid Header">
+                    <div class="container px-0 px-lg-2 position-relative">
+                        <div class="row mx-0 align-items-center justify-content-between">
+                            <a href="index.html" class="col-xl-3 col-lg-2 col-auto logoBox px-0">
+                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="400px" height="82px" viewBox="0 0 400 82" enable-background="new 0 0 400 82" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"><text transform="matrix(1 0 0 1 69.7529 415.1504)"><tspan x="0" y="0" font-family="'Poppins-ExtraBold'" font-size="72" letter-spacing="-3">A</tspan><tspan x="50.544" y="0" font-family="'Poppins-ExtraBold'" font-size="72" letter-spacing="1">V</tspan><tspan x="105.983" y="0" font-family="'Poppins-ExtraBold'" font-size="72" letter-spacing="3">ONE</tspan></text><g><path d="M54.766,67.227H27.107L22.81,80.229H0L28.54,2.543h25.014l28.43,77.687h-22.92L54.766,67.227z M49.367,50.918l-8.375-25.345l-8.485,25.345H49.367z"></path><path d="M100.386,2.212l17.631,56.199l17.521-56.199h23.03l-26.667,78.018h-27.878L77.356,2.212H100.386z"></path><path d="M225.401,6.124c6.062,3.416,10.835,8.173,14.326,14.27c3.488,6.099,5.234,12.968,5.234,20.607c0,7.641-1.764,14.509-5.291,20.605c-3.527,6.099-8.318,10.854-14.381,14.27c-6.059,3.417-12.725,5.125-19.998,5.125c-7.272,0-13.959-1.708-20.057-5.125c-6.099-3.416-10.908-8.171-14.435-14.27c-3.527-6.097-5.288-12.965-5.288-20.605c0-7.64,1.761-14.509,5.288-20.607c3.527-6.097,8.336-10.854,14.435-14.27c6.098-3.416,12.784-5.125,20.057-5.125C212.637,0.999,219.342,2.708,225.401,6.124z M192.289,26.399c-3.159,3.564-4.741,8.43-4.741,14.602c0,6.023,1.582,10.836,4.741,14.435c3.157,3.601,7.491,5.399,13.003,5.399c5.435,0,9.733-1.799,12.893-5.399c3.156-3.599,4.738-8.411,4.738-14.435c0-6.172-1.563-11.037-4.684-14.602c-3.125-3.563-7.438-5.345-12.947-5.345C199.78,21.055,195.446,22.837,192.289,26.399z"></path><path d="M332.231,80.229h-21.707l-28.648-43.526v43.526h-21.711V2.322h21.711l28.648,44.077V2.322h21.707V80.229z"></path><path d="M371.462,19.513v12.893h25.232v16.419h-25.232v14.104H400v17.301h-50.249V2.212H400v17.301H371.462z"></path></g></svg>
+                            </a>
+                            <div class="col-xl-6 col-lg-7 d-none d-lg-block">
+                                <ul class="list-unstyled m-0 p-0 d-flex align-items-center justify-content-between LinkBox">
+                                    <li class="LinkLi">
+                                        <a class="LinkAnchor" href="javascript:;">Fashion</a>
+                                        <div class="liHoverBox position-absolute top-100 start-0 w-100 shadow-sm bg-white">
+                                            <div class="container py-4">
+                                                <div class="row mx-0">
+                                                    <div class="col-2">
+                                                        <div class="">
+                                                            <div class="subCategoryLi active" cat-sec="category1">Women</div>
+                                                            <div class="subCategoryLi" cat-sec="category2">Men's</div>
+                                                            <div class="subCategoryLi" cat-sec="category3">Kids</div>
+                                                            <div class="subCategoryLi" cat-sec="category4">Accessories</div>
+                                                            <div class="subCategoryLi" cat-sec="category5">Men's Fashion</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-10">
+                                                        <div class="row mx-0 innerCatBox active" id="category1">
+                                                            <div class="col-3">
+                                                                <div class="subCatLiHead">Women Ethnic Wear</div>
+                                                                <ul class="list-unstyled m-0 p-0">
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">All</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Women Sarees</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Women Kurtas & Kurties</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Women Kurtas Sets & Salwar</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Women Gown</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Women Lehenga Cholis</a></li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-3">
+                                                                <div class="subCatLiHead">Women Western Wear</div>
+                                                                <ul class="list-unstyled m-0 p-0">
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">All</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Women Tops</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Women Dresses</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Women t-Shirts</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Women Jeans</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Women Nightsuit</a></li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-3">
+                                                                <div class="subCatLiHead">Women Footwear</div>
+                                                                <ul class="list-unstyled m-0 p-0">
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">All</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Women Flats</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Women Heels</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Women Wedges</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Women Casual Shoes</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Women Flip Flops</a></li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-3">
+                                                                <div class="subCatImgBox">
+                                                                    <img src="assets/img/women.jpg" class="w-100" alt="">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row mx-0 innerCatBox"  id="category2">
+                                                            <div class="col-3">
+                                                                <div class="subCatLiHead">Men's Top Wear</div>
+                                                                <ul class="list-unstyled m-0 p-0">
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category 2</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-3">
+                                                                <div class="subCatLiHead">Men's Bottom Wear</div>
+                                                                <ul class="list-unstyled m-0 p-0">
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-3">
+                                                                <div class="subCatLiHead">Men's Footwear</div>
+                                                                <ul class="list-unstyled m-0 p-0">
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-3">
+                                                                <div class="subCatImgBox">
+                                                                    <img src="assets/img/men.jpg" class="w-100" alt="">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row mx-0 innerCatBox"  id="category3">
+                                                            <div class="col-3">
+                                                                <div class="subCatLiHead">Boys Wear</div>
+                                                                <ul class="list-unstyled m-0 p-0">
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category 3</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-3">
+                                                                <div class="subCatLiHead">Girls Wear</div>
+                                                                <ul class="list-unstyled m-0 p-0">
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-3">
+                                                                <div class="subCatLiHead">Footwear</div>
+                                                                <ul class="list-unstyled m-0 p-0">
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-3">
+                                                                <div class="subCatImgBox">
+                                                                    <img src="assets/img/kids.jpg" class="w-100" alt="">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row mx-0 innerCatBox"  id="category4">
+                                                            <div class="col-3">
+                                                                <div class="subCatLiHead">Footwear</div>
+                                                                <ul class="list-unstyled m-0 p-0">
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category 4</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-3">
+                                                                <div class="subCatLiHead">Footwear</div>
+                                                                <ul class="list-unstyled m-0 p-0">
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-3">
+                                                                <div class="subCatLiHead">Footwear</div>
+                                                                <ul class="list-unstyled m-0 p-0">
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-3">
+                                                                <div class="subCatImgBox">
+                                                                    <img src="assets/img/kids.jpg" class="w-100" alt="">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row mx-0 innerCatBox"  id="category5">
+                                                            <div class="col-3">
+                                                                <div class="subCatLiHead">Footwear</div>
+                                                                <ul class="list-unstyled m-0 p-0">
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category 5</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-3">
+                                                                <div class="subCatLiHead">Footwear</div>
+                                                                <ul class="list-unstyled m-0 p-0">
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-3">
+                                                                <div class="subCatLiHead">Footwear</div>
+                                                                <ul class="list-unstyled m-0 p-0">
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                    <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-3">
+                                                                <div class="subCatImgBox">
+                                                                    <img src="assets/img/kids.jpg" class="w-100" alt="">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="LinkLi LinkLiSingleHover">
+                                        <a class="LinkAnchor" href="javascript:;">Electronics</a>
+                                        <div class="liHoverBox position-absolute top-100 start-0 w-100 shadow-sm bg-white">
+                                            <div class="">
+                                                <div class="row mx-0">
+                                                    <div class="col-12">
+                                                        <ul class="list-unstyled m-0 p-0">
+                                                            <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                            <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                            <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                            <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                            <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                            <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                            <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                            <li class="subCatLi py-2"><a class="subCatAnchor text-decoration-none" href="javascript:;">Sub Category</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="LinkLi"><a class="LinkAnchor" href="javascript:;">Home</a></li>
+                                    <li class="LinkLi"><a class="LinkAnchor" href="javascript:;">Beauty</a></li>
+                                    <li class="LinkLi"><a class="LinkAnchor" href="javascript:;">Grocery</a></li>
+                                    <li class="LinkLi"><a class="LinkAnchor" href="javascript:;">Appliances</a></li>
+                                </ul>
+                            </div> 
+                            <div class="col-xl-3 col-lg-2 col ps-0">
+                                <ul class="list-unstyled m-0 p-0 d-flex align-items-center justify-content-end iconBox">
+                                    <li class="iconLi ps-3"><a class="iconAnchor" href="javascript:;" data-bs-toggle="offcanvas" data-bs-target="#searchOffcanvas" aria-controls="searchOffcanvas"><img src="assets/img/searchLightBlue.svg" alt=""></a></li>
+                                    <li class="iconLi ps-3 d-none d-lg-block"><a class="iconAnchor" href="javascript:;"><img src="assets/img/wishlistLightBlue.svg" alt=""></a></li>
+                                    <li class="iconLi ps-3"><a class="iconAnchor" href="javascript:;" data-bs-toggle="modal" data-bs-target="#LoginModal"><img src="assets/img/profileLightBlue.svg" alt=""></a></li>
+                                    <li class="iconLi ps-3 d-none d-lg-block">
+                                        <a class="iconAnchor position-relative" href="javascript:;" data-bs-toggle="offcanvas" data-bs-target="#cartOffcanvas" aria-controls="cartOffcanvas">
+                                            <img src="assets/img/bagLightBlue.svg" alt="">
+                                            <span class="d-inline-flex position-absolute rounded-circle align-items-center justify-content-center cartValue">2</span>
+                                        </a>
+                                    </li>
+                                    <li class="iconLi ps-3 d-lg-none" data-bs-toggle="offcanvas" href="#mobileMenuOffcancas" role="button" aria-controls="mobileMenuOffcancas">
+                                        <a class="iconAnchor" href="javascript:;"><img src="assets/img/menuLightBlue.svg" alt=""></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Header Ends Here -->
+                <div class="bodyScrollPart position-relative" id="bodyScrollPart">
+                    <div class="container-fluid breadCrumBox d-none d-lg-block">
+                        <div class="container">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb py-1">
+                                    <li class="breadcrumb-item"><a href="javascript:;">Home</a></li>
+                                    <li class="breadcrumb-item"><a href="javascript:;">Fashion</a></li>
+                                    <li class="breadcrumb-item"><a href="javascript:;">Women's Wear</a></li>
+                                    <li class="breadcrumb-item active"><a href="javascript:;">Denim Jeans</a></li>
+                                </ol>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="container-fluid productDetailPage py-lg-4">
+                        <div class="container productDetailPageContainer">
+                            <div class="row mx-0 justify-content-center">
+                                <div class="col-xxl-10 px-0">
+                                    <div class="row mx-0 position-relative">
+                                        <div class="col-lg-6 px-0 pe-md-2">
+                                            <div class="row mx-0 sticky-top">
+                                                <div class="col-12 px-0">
+                                                    <div class="row">
+                                                        <div class="col-auto productClickBtnSide">
+                                                            <div class="sideClickWrapper">
+                                                                <div class="sideClickInner">
+                                                                    <div class="clickWrapper">
+                                                                        <div class="clickSlide">
+                                                                            <img src="assets/img/innerPro5.jpeg" class="previewImgThumb"/>
+                                                                        </div>
+                                                                        <div class="clickSlide">
+                                                                            <img src="assets/img/innerPro8.jpeg" class="previewImgThumb"/>
+                                                                        </div>
+                                                                        <div class="clickSlide">
+                                                                            <img src="assets/img/innerPro6.jpeg" class="previewImgThumb"/>
+                                                                        </div>
+                                                                        <div class="clickSlide">
+                                                                            <img src="assets/img/innerPro7.jpeg" class="previewImgThumb"/>
+                                                                        </div>
+                                                                        <div class="clickSlide vidClickSlide">
+                                                                            <img src="assets/img/innerPro5.jpeg" class="previewVidThumb"/>
+                                                                            <div class="vidIcon">
+                                                                                <img src="assets/img/vidIcon.svg" alt="">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col productPreviewImgSide imgPreviewOn">
+                                                            <div class="productPreviewBox">
+                                                                <div class="imgPreview w-100 h-100">
+                                                                    <img class="w-100 h-100 imgForPreview" src="assets/img/innerPro5.jpeg" alt="">
+                                                                </div>
+                                                                <div class="videoForPreview w-100 h-100 d-none">
+                                                                    <iframe src="https://www.youtube.com/embed/2szsz0pbrcc" title="Regular Fit Mid Rise Jeans" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mt-lg-2 mt-1 d-none d-lg-flex g-3">
+                                                        <div class="col-6">
+                                                            <button class="cart-button btn btn-theme1 text-white mainBtns">
+                                                                <span class="add-to-cart">Add to cart</span>
+                                                                <span class="added">Added</span>
+                                                                <img src="assets/img/trollyWhite.svg" class="shoppingCartImg" alt="">
+                                                                <img src="assets/img/fillWhiteBag.svg" class="shoppingBag" alt="">
+                                                            </button>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <button class="btn btn-theme1 text-white w-100 mainBtns">
+                                                                Buy Now
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 px-0 ps-md-2">
+                                            <div class="row proDetailSide flex-column flex-nowrap h-100">
+                                                <div class="col-12 proDetail mt-3 mt-lg-0">Levis</div>
+                                                <div class="col-12 proName mt-1">Denim Jeans</div>
+                                                <div class="col-12 proAvability available mt-1">In Stock</div>
+                                                <div class="col-12 proPrice mt-1">₹3000.00</div>
+                                                <div class="col-12 proDetail mt-1">A little crisp, a little sunny, warm enough to skip a coat, just cool enough to wrap great cashmere around is this asymmetrical jumper. With a chic hue, this one to skip a coat, just cool enough to wrap great cashmere around is this asymmetrical jumper. With a chic hue,</div>
+                                                <div class="col-12 proColor mt-3">
+                                                    <div class="row mx-0">
+                                                        <div class="col-12 px-0 proDetail2 mb-1">Available Color:</div>
+                                                        <div class="col-12 px-0">
+                                                            <div class="row mx-0">
+                                                                <div class="col-auto ps-0">
+                                                                    <input type="radio" name="color" id="color1" class="colorInput d-none" checked>
+                                                                    <label class="colorLabel" for="color1"> <span class="d-inline-block h-100 w-100 bg-danger"></span></label>
+                                                                </div>
+                                                                <div class="col-auto ps-0">
+                                                                    <input type="radio" name="color" id="color2" class="colorInput d-none">
+                                                                    <label class="colorLabel" for="color2"><span class="d-inline-block h-100 w-100 bg-primary"></span></label>
+                                                                </div>
+                                                                <div class="col-auto ps-0">
+                                                                    <input type="radio" name="color" id="color3" class="colorInput d-none">
+                                                                    <label class="colorLabel" for="color3"><span class="d-inline-block h-100 w-100 bg-dark"></span></label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                                <div class="col-12 proColor mt-3">
+                                                    <div class="row mx-0">
+                                                        <div class="col-12 px-0 proDetail2 mb-1">Available Size:</div>
+                                                        <div class="col-12 px-0">
+                                                            <div class="row mx-0">
+                                                                <div class="col-auto ps-0">
+                                                                    <input type="radio" name="size" id="size1" class="colorInput d-none" checked>
+                                                                    <label class="colorLabel" for="size1"><span class="d-inline-block h-100 w-100">S</span></label>
+                                                                </div>
+                                                                <div class="col-auto ps-0">
+                                                                    <input type="radio" name="size" id="size2" class="colorInput d-none">
+                                                                    <label class="colorLabel" for="size2"> <span class="d-inline-block h-100 w-100">M</span></label>
+                                                                </div>
+                                                                <div class="col-auto ps-0">
+                                                                    <input type="radio" name="size" id="size3" class="colorInput d-none">
+                                                                    <label class="colorLabel" for="size3"><span class="d-inline-block h-100 w-100">L</span></label>
+                                                                </div>
+                                                                <div class="col-auto ps-0">
+                                                                    <input type="radio" name="size" id="size4" class="colorInput d-none">
+                                                                    <label class="colorLabel" for="size4"><span class="d-inline-block h-100 w-100">XL</span></label>
+                                                                </div>
+                                                                <div class="col-auto ps-0">
+                                                                    <input type="radio" name="size" id="size5" class="colorInput d-none">
+                                                                    <label class="colorLabel" for="size5"><span class="d-inline-block h-100 w-100">XXL</span></label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="row mt-lg-2 mt-3 g-3 d-lg-none">
+                                                        <div class="col-6">
+                                                            <button class="cart-button btn btn-theme1 text-white mainBtns">
+                                                                <span class="add-to-cart">Add to cart</span>
+                                                                <span class="added">Added</span>
+                                                                <img src="assets/img/trollyWhite.svg" class="shoppingCartImg" alt="">
+                                                                <img src="assets/img/fillWhiteBag.svg" class="shoppingBag" alt="">
+                                                            </button>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <button class="btn btn-theme1 text-white w-100 mainBtns">
+                                                                Buy Now
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 productSpecifications mt-3">
+                                                    <div class="accordion" id="accordionExample">
+                                                        <div class="accordion-item">
+                                                            <div class="accordion-header" id="headingOne">
+                                                                <button class="accordion-button shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                                Product Details
+                                                                </button>
+                                                            </div>
+                                                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne">
+                                                                <div class="accordion-body pt-0">
+                                                                    <div class="row mx-0">
+                                                                        <div class="col-12 px-0 py-2">
+                                                                            <div class="row mx-0">
+                                                                                <div class="ps-0 col-5 detailHead">Ideal For</div>
+                                                                                <div class="col-7 detailDes">Men</div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-12 px-0 py-2">
+                                                                            <div class="row mx-0">
+                                                                                <div class="ps-0 col-5 detailHead">Suitable For</div>
+                                                                                <div class="col-7 detailDes">Western Wear</div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-12 px-0 py-2">
+                                                                            <div class="row mx-0">
+                                                                                <div class="ps-0 col-5 detailHead">Pack Of</div>
+                                                                                <div class="col-7 detailDes">1</div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-12 px-0 py-2">
+                                                                            <div class="row mx-0">
+                                                                                <div class="ps-0 col-5 detailHead">Reversible</div>
+                                                                                <div class="col-7 detailDes">No</div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-12 px-0 py-2">
+                                                                            <div class="row mx-0">
+                                                                                <div class="ps-0 col-5 detailHead">Fabric</div>
+                                                                                <div class="col-7 detailDes">Cotton Blend</div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-12 px-0 py-2">
+                                                                            <div class="row mx-0">
+                                                                                <div class="ps-0 col-5 detailHead">Faded</div>
+                                                                                <div class="col-7 detailDes">
+                                                                                    Heavy Fade</div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-12 px-0 py-2">
+                                                                            <div class="row mx-0">
+                                                                                <div class="ps-0 col-5 detailHead">Rise</div>
+                                                                                <div class="col-7 detailDes">Mid Rise</div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-12 px-0 py-2">
+                                                                            <div class="row mx-0">
+                                                                                <div class="ps-0 col-5 detailHead">Distressed</div>
+                                                                                <div class="col-7 detailDes">
+                                                                                    Mild Distress</div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-12 px-0 py-2">
+                                                                            <div class="row mx-0">
+                                                                                <div class="ps-0 col-5 detailHead">Color</div>
+                                                                                <div class="col-7 detailDes">Blue</div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="accordion-item">
+                                                            <div class="accordion-header" id="headingFour">
+                                                                <button class="accordion-button shadow-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                                                Size & Fit
+                                                                </button>
+                                                            </div>
+                                                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour">
+                                                                <div class="accordion-body pt-0">
+                                                                    <div class="row mx-0">
+                                                                        <div class="col-12 proDetailHeading text-center mb-2">Men's body sizing chart</div>
+                                                                        <div class="col-12">
+                                                                            <div class="table-responsive">
+                                                                                <table class="table table-bordered sizeChartTable">
+                                                                                    <thead>
+                                                                                        <tr>
+                                                                                            <th>Size</th>
+                                                                                            <th>XS</th>
+                                                                                            <th>S</th>
+                                                                                            <th>M</th>
+                                                                                            <th>L</th>
+                                                                                            <th>XL</th>
+                                                                                            <th>XXL</th>
+                                                                                        </tr>
+                                                                                    </thead>
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td>Chest</td>
+                                                                                            <td>33" - 36"</td>
+                                                                                            <td>36" - 39"</td>
+                                                                                            <td>39" - 41"</td>
+                                                                                            <td>41" - 43"</td>
+                                                                                            <td>43" - 46"</td>
+                                                                                            <td>46" - 49"</td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td>Waist</td>
+                                                                                            <td>27" - 30"</td>
+                                                                                            <td>30" - 33"</td>
+                                                                                            <td>33" - 35"</td>
+                                                                                            <td>36" - 38"</td>
+                                                                                            <td>38" - 42"</td>
+                                                                                            <td>42" - 45"</td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td>Hip</td>
+                                                                                            <td>33" - 36"</td>
+                                                                                            <td>36" - 39"</td>
+                                                                                            <td>39" - 41"</td>
+                                                                                            <td>41" - 43"</td>
+                                                                                            <td>43" - 46"</td>
+                                                                                            <td>46" - 49"</td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-12 text-center">
+                                                                            <img src="assets/img/sizeMeasure.jpg" class="w-50" alt="">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="accordion-item">
+                                                            <div class="accordion-header" id="headingThree">
+                                                                <button class="accordion-button shadow-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                                                Shipping & Returns
+                                                                </button>
+                                                            </div>
+                                                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree">
+                                                                <div class="accordion-body pt-0">
+                                                                    <div class="row mx-0">
+                                                                        <div class="col-12 proDetailHeading">Returns Policy</div>
+                                                                        <div class="col-12 proDetailText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quia ab quo cupiditate corrupti quibusdam iure deserunt sint maxime itaque?</div>
+                                                                    </div>
+                                                                    <div class="row mx-0">
+                                                                        <div class="col-12 proDetailHeading">Shipping</div>
+                                                                        <div class="col-12 proDetailText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quia ab quo cupiditate corrupti quibusdam iure deserunt sint maxime itaque?</div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="accordion-item">
+                                                            <div class="accordion-header" id="headingTwo">
+                                                                <button class="accordion-button shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                                Review & Ratings
+                                                                </button>
+                                                            </div>
+                                                            <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo">
+                                                                <div class="accordion-body pt-0">
+                                                                    <div class="row align-items-center mx-0">
+                                                                        <div class="col-sm-5 px-0">
+                                                                            <div class="row mx-0">
+                                                                                <div class="col-12 px-0 totalReviews">74 Reviews</div>
+                                                                                <div class="col-12 px-0 totalReviewStar">
+                                                                                    <img src="assets/img/yellowStar.svg" alt="">
+                                                                                    <img src="assets/img/yellowStar.svg" alt="">
+                                                                                    <img src="assets/img/yellowStar.svg" alt="">
+                                                                                    <img src="assets/img/yellowStar.svg" alt="">
+                                                                                    <img src="assets/img/yellowStar.svg" alt="">
+                                                                                </div>
+                                                                                <div class="col-12 px-0 reviewLight">58 out of 74 (77%)</div>
+                                                                                <div class="col-12 px-0 reviewLight">Customers recommended this product</div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-sm-7 ps-sm-2 px-0 mt-3 mt-sm-0">
+                                                                            <div class="row mx-0 align-items-center reviewLine">
+                                                                                <div class="col-auto px-0 reviewStar">
+                                                                                    <span>5</span>
+                                                                                    <img src="assets/img/star.svg" alt="">
+                                                                                </div>
+                                                                                <div class="col reviewProgress">
+                                                                                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                                                                        <div class="progress-bar" style="width: 40%"></div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-auto px-0 totalReview">43</div>
+                                                                            </div>
+                                                                            <div class="row mx-0 align-items-center reviewLine">
+                                                                                <div class="col-auto px-0 reviewStar">
+                                                                                    <span>4</span>
+                                                                                    <img src="assets/img/star.svg" alt="">
+                                                                                </div>
+                                                                                <div class="col reviewProgress">
+                                                                                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                                                                        <div class="progress-bar" style="width: 32%"></div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-auto px-0 totalReview">16</div>
+                                                                            </div>
+                                                                            <div class="row mx-0 align-items-center reviewLine">
+                                                                                <div class="col-auto px-0 reviewStar">
+                                                                                    <span>3</span>
+                                                                                    <img src="assets/img/star.svg" alt="">
+                                                                                </div>
+                                                                                <div class="col reviewProgress">
+                                                                                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                                                                        <div class="progress-bar" style="width: 21%"></div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-auto px-0 totalReview">9</div>
+                                                                            </div>
+                                                                            <div class="row mx-0 align-items-center reviewLine">
+                                                                                <div class="col-auto px-0 reviewStar">
+                                                                                    <span>2</span>
+                                                                                    <img src="assets/img/star.svg" alt="">
+                                                                                </div>
+                                                                                <div class="col reviewProgress">
+                                                                                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                                                                        <div class="progress-bar" style="width: 15%"></div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-auto px-0 totalReview">4</div>
+                                                                            </div>
+                                                                            <div class="row mx-0 align-items-center reviewLine">
+                                                                                <div class="col-auto px-0 reviewStar">
+                                                                                    <span>1</span>
+                                                                                    <img src="assets/img/star.svg" alt="">
+                                                                                </div>
+                                                                                <div class="col reviewProgress">
+                                                                                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                                                                        <div class="progress-bar" style="width: 8%"></div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-auto px-0 totalReview">2</div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row mx-0 mt-4">
+                                                                        <div class="col-12">
+                                                                            <div class="row align-items-center">
+                                                                                <div class="col-auto px-0">
+                                                                                    <div class="reviewUser">
+                                                                                        <img src="assets/img/reviewUser.jpg" alt="">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-auto">
+                                                                                    <div class="userName reviewUserName">Rafael Marquez</div>
+                                                                                    <div class="reviewLight">June 28, 2019</div>
+                                                                                </div>
+                                                                                <div class="col px-0">
+                                                                                    <div class="d-flex userReviewStar mb-3 mb-lg-1 justify-content-end justify-content-lg-start">
+                                                                                        <img src="assets/img/yellowStar.svg" alt="">
+                                                                                        <img src="assets/img/yellowStar.svg" alt="">
+                                                                                        <img src="assets/img/yellowStar.svg" alt="">
+                                                                                        <img src="assets/img/yellowStar.svg" alt="">
+                                                                                        <img src="assets/img/yellowStar.svg" alt="">
+                                                                                    </div>
+                                                                                    <div class="reviewLight d-none d-lg-block">83% of users found this review helpful</div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-12 mt-1 reviewText">
+                                                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita autem non praesentium ipsum, nemo repellendus pariatur amet debitis quaerat maxime nihil culpa corrupti quis aliquid.
+                                                                        </div>
+                                                                        <div class="col-12 reviewAttachedImages mt-2 d-flex">
+                                                                            <div class="attachImg me-2">
+                                                                                <img src="assets/img/attach1.jpg" alt="">
+                                                                            </div>
+                                                                            <div class="attachImg me-2">
+                                                                                <img src="assets/img/attach2.jpg" alt="">
+                                                                            </div>
+                                                                            <div class="attachImg me-2">
+                                                                                <img src="assets/img/attach3.jpg" alt="">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-12 mt-2">
+                                                                            <div class="row">
+                                                                                <div class="col-auto pe-0">
+                                                                                    <input type="radio" name="likeDislike" class="d-none" id="like">
+                                                                                    <label for="like" class="likeBtn">
+                                                                                        <img src="assets/img/like.svg" alt="">
+                                                                                        <span>15</span>
+                                                                                    </label>
+                                                                                </div>
+                                                                                <div class="col-auto px-1 reviewDivider">|</div>
+                                                                                <div class="col-auto ps-0">
+                                                                                    <input type="radio" name="likeDislike" class="d-none" id="like">
+                                                                                    <label for="like" class="likeBtn">
+                                                                                        <img src="assets/img/dislike.svg" alt="">
+                                                                                        <span>3</span>
+                                                                                    </label>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row mx-0 mt-4">
+                                                                        <div class="col-12">
+                                                                            <div class="row align-items-center">
+                                                                                <div class="col-auto px-0">
+                                                                                    <div class="reviewUser">
+                                                                                        <img src="assets/img/reviewUser.jpg" alt="">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-auto">
+                                                                                    <div class="userName reviewUserName">Rafael Marquez</div>
+                                                                                    <div class="reviewLight">June 28, 2019</div>
+                                                                                </div>
+                                                                                <div class="col px-0">
+                                                                                    <div class="d-flex userReviewStar mb-3 mb-lg-1 justify-content-end justify-content-lg-start">
+                                                                                        <img src="assets/img/yellowStar.svg" alt="">
+                                                                                        <img src="assets/img/yellowStar.svg" alt="">
+                                                                                        <img src="assets/img/yellowStar.svg" alt="">
+                                                                                        <img src="assets/img/yellowStar.svg" alt="">
+                                                                                        <img src="assets/img/yellowStar.svg" alt="">
+                                                                                    </div>
+                                                                                    <div class="reviewLight d-none d-lg-block">83% of users found this review helpful</div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-12 mt-1 reviewText">
+                                                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita autem non praesentium ipsum, nemo repellendus pariatur amet debitis quaerat maxime nihil culpa corrupti quis aliquid.
+                                                                        </div>
+                                                                        <div class="col-12 reviewAttachedImages mt-2 d-flex">
+                                                                            <div class="attachImg me-2">
+                                                                                <img src="assets/img/attach1.jpg" alt="">
+                                                                            </div>
+                                                                            <div class="attachImg me-2">
+                                                                                <img src="assets/img/attach2.jpg" alt="">
+                                                                            </div>
+                                                                            <div class="attachImg me-2">
+                                                                                <img src="assets/img/attach3.jpg" alt="">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-12 mt-2">
+                                                                            <div class="row">
+                                                                                <div class="col-auto pe-0">
+                                                                                    <input type="radio" name="likeDislike" class="d-none" id="like">
+                                                                                    <label for="like" class="likeBtn">
+                                                                                        <img src="assets/img/like.svg" alt="">
+                                                                                        <span>15</span>
+                                                                                    </label>
+                                                                                </div>
+                                                                                <div class="col-auto px-1 reviewDivider">|</div>
+                                                                                <div class="col-auto ps-0">
+                                                                                    <input type="radio" name="likeDislike" class="d-none" id="like">
+                                                                                    <label for="like" class="likeBtn">
+                                                                                        <img src="assets/img/dislike.svg" alt="">
+                                                                                        <span>3</span>
+                                                                                    </label>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row mx-0 mt-4">
+                                                                        <div class="col-12">
+                                                                            <div class="row align-items-center">
+                                                                                <div class="col-auto px-0">
+                                                                                    <div class="reviewUser">
+                                                                                        <img src="assets/img/reviewUser.jpg" alt="">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-auto">
+                                                                                    <div class="userName reviewUserName">Rafael Marquez</div>
+                                                                                    <div class="reviewLight">June 28, 2019</div>
+                                                                                </div>
+                                                                                <div class="col px-0">
+                                                                                    <div class="d-flex userReviewStar mb-3 mb-lg-1 justify-content-end justify-content-lg-start">
+                                                                                        <img src="assets/img/yellowStar.svg" alt="">
+                                                                                        <img src="assets/img/yellowStar.svg" alt="">
+                                                                                        <img src="assets/img/yellowStar.svg" alt="">
+                                                                                        <img src="assets/img/yellowStar.svg" alt="">
+                                                                                        <img src="assets/img/yellowStar.svg" alt="">
+                                                                                    </div>
+                                                                                    <div class="reviewLight d-none d-lg-block">83% of users found this review helpful</div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-12 mt-1 reviewText">
+                                                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita autem non praesentium ipsum, nemo repellendus pariatur amet debitis quaerat maxime nihil culpa corrupti quis aliquid.
+                                                                        </div>
+                                                                        <div class="col-12 reviewAttachedImages mt-2 d-flex">
+                                                                            <div class="attachImg me-2">
+                                                                                <img src="assets/img/attach1.jpg" alt="">
+                                                                            </div>
+                                                                            <div class="attachImg me-2">
+                                                                                <img src="assets/img/attach2.jpg" alt="">
+                                                                            </div>
+                                                                            <div class="attachImg me-2">
+                                                                                <img src="assets/img/attach3.jpg" alt="">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-12 mt-2">
+                                                                            <div class="row">
+                                                                                <div class="col-auto pe-0">
+                                                                                    <input type="radio" name="likeDislike" class="d-none" id="like">
+                                                                                    <label for="like" class="likeBtn">
+                                                                                        <img src="assets/img/like.svg" alt="">
+                                                                                        <span>15</span>
+                                                                                    </label>
+                                                                                </div>
+                                                                                <div class="col-auto px-1 reviewDivider">|</div>
+                                                                                <div class="col-auto ps-0">
+                                                                                    <input type="radio" name="likeDislike" class="d-none" id="like">
+                                                                                    <label for="like" class="likeBtn">
+                                                                                        <img src="assets/img/dislike.svg" alt="">
+                                                                                        <span>3</span>
+                                                                                    </label>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-fluid py-5">
+                        <div class="container">
+                            <div class="row d-none d-lg-flex">
+                                <div class="col-12 mb-4 text-center heading">Related products</div>
+                            </div>
+                            <div class="row row-cols-xl-5 row-cols-lg-4 row-cols-md-3 row-cols-2 g-3 g-sm-4 cartBtns">
+                                <div class="col">
+                                    <a href="javascript:;" class="row mx-0 productCard text-decoration-none">
+                                        <div class="col-12 productImg">
+                                            <div class="overflow-hidden w-100 h-100 position-relative productImgInner">
+                                                <img src="assets/img/pro1.jpg" class="w-100 h-100 proImg" alt="">
+                                                <div class="expandOverlay h-100 w-100 position-absolute top-0 start-0"></div>
+                                                <div class="wishlistBox d-flex align-items-center justify-content-center rounded-circle bg-white">
+                                                    <img src="assets/img/wishlistLightBlue.svg" alt="">
+                                                </div>
+                                                <div class="expandBox d-flex align-items-center justify-content-center bg-dark" data-bs-toggle="modal" data-bs-target="#productPrivew">
+                                                    <img src="assets/img/expand.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 prodetailBox">
+                                            <div class="productDes">Sneakers & Keds</div>
+                                            <div class="productName">Women Colorblock Sneakers</div>
+                                            <div class="d-flex align-items-center justify-content-between">
+                                                <div class="productPrice">₹1500 <span>₹1700</span></div>
+                                                <div class="productRating align-items-center d-none d-sm-flex">
+                                                    <img src="assets/img/star.png" alt="">
+                                                    <img src="assets/img/star.png" alt="">
+                                                    <img src="assets/img/star.png" alt="">
+                                                    <img src="assets/img/star.png" alt="">
+                                                    <img src="assets/img/star.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="mt-2">
+                                                <button class="cart-button btn btn-theme1 text-white">
+                                                    <span class="add-to-cart">Add to cart</span>
+                                                    <span class="added">Added</span>
+                                                    <img src="assets/img/trollyWhite.svg" class="shoppingCartImg" alt="">
+                                                    <img src="assets/img/fillWhiteBag.svg" class="shoppingBag" alt="">
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a href="javascript:;" class="row mx-0 productCard text-decoration-none">
+                                        <div class="col-12 productImg">
+                                            <div class="overflow-hidden w-100 h-100 position-relative productImgInner">
+                                                <img src="assets/img/pro2.jpg" class="w-100 h-100 proImg" alt="">
+                                                <div class="expandOverlay h-100 w-100 position-absolute top-0 start-0"></div>
+                                                <div class="wishlistBox d-flex align-items-center justify-content-center rounded-circle bg-white">
+                                                    <img src="assets/img/wishlistLightBlue.svg" alt="">
+                                                </div>
+                                                <div class="expandBox d-flex align-items-center justify-content-center bg-dark" data-bs-toggle="modal" data-bs-target="#productPrivew">
+                                                    <img src="assets/img/expand.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 prodetailBox">
+                                            <div class="productDes">Women’s T-shirt</div>
+                                            <div class="productName">Cotton Lace Blouse</div>
+                                            <div class="d-flex align-items-center justify-content-between">
+                                                <div class="productPrice">₹500 <span>₹700</span></div>
+                                                <div class="productRating d-none d-sm-flex align-items-center">
+                                                    <img src="assets/img/star.png" alt="">
+                                                    <img src="assets/img/star.png" alt="">
+                                                    <img src="assets/img/star.png" alt="">
+                                                    <img src="assets/img/star.png" alt="">
+                                                    <img src="assets/img/star.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="mt-2">
+                                                <button class="cart-button btn btn-theme1 text-white">
+                                                    <span class="add-to-cart">Add to cart</span>
+                                                    <span class="added">Added</span>
+                                                    <img src="assets/img/trollyWhite.svg" class="shoppingCartImg" alt="">
+                                                    <img src="assets/img/fillWhiteBag.svg" class="shoppingBag" alt="">
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a href="javascript:;" class="row mx-0 productCard text-decoration-none">
+                                        <div class="col-12 productImg">
+                                            <div class="overflow-hidden w-100 h-100 position-relative productImgInner">
+                                                <img src="assets/img/pro3.jpg" class="w-100 h-100 proImg" alt="">
+                                                <div class="expandOverlay h-100 w-100 position-absolute top-0 start-0"></div>
+                                                <div class="wishlistBox d-flex align-items-center justify-content-center rounded-circle bg-white">
+                                                    <img src="assets/img/wishlistLightBlue.svg" alt="">
+                                                </div>
+                                                <div class="expandBox d-flex align-items-center justify-content-center bg-dark" data-bs-toggle="modal" data-bs-target="#productPrivew">
+                                                    <img src="assets/img/expand.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 prodetailBox">
+                                            <div class="productDes">Women’s Shorts</div>
+                                            <div class="productName">Mom High Waist Shorts</div>
+                                            <div class="d-flex align-items-center justify-content-between">
+                                                <div class="productPrice">₹500 <span>₹700</span></div>
+                                                <div class="productRating d-none d-sm-flex align-items-center">
+                                                    <img src="assets/img/star.png" alt="">
+                                                    <img src="assets/img/star.png" alt="">
+                                                    <img src="assets/img/star.png" alt="">
+                                                    <img src="assets/img/star.png" alt="">
+                                                    <img src="assets/img/star.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="mt-2">
+                                                <button class="cart-button btn btn-theme1 text-white">
+                                                    <span class="add-to-cart">Add to cart</span>
+                                                    <span class="added">Added</span>
+                                                    <img src="assets/img/trollyWhite.svg" class="shoppingCartImg" alt="">
+                                                    <img src="assets/img/fillWhiteBag.svg" class="shoppingBag" alt="">
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a href="javascript:;" class="row mx-0 productCard text-decoration-none">
+                                        <div class="col-12 productImg">
+                                            <div class="overflow-hidden w-100 h-100 position-relative productImgInner">
+                                                <img src="assets/img/pro5.jpg" class="w-100 h-100 proImg" alt="">
+                                                <div class="expandOverlay h-100 w-100 position-absolute top-0 start-0"></div>
+                                                <div class="wishlistBox d-flex align-items-center justify-content-center rounded-circle bg-white">
+                                                    <img src="assets/img/wishlistLightBlue.svg" alt="">
+                                                </div>
+                                                <div class="expandBox d-flex align-items-center justify-content-center bg-dark" data-bs-toggle="modal" data-bs-target="#productPrivew">
+                                                    <img src="assets/img/expand.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 prodetailBox">
+                                            <div class="productDes">Sportswear</div>
+                                            <div class="productName">Women Sports Jacket</div>
+                                            <div class="d-flex align-items-center justify-content-between">
+                                                <div class="productPrice">₹500 <span>₹700</span></div>
+                                                <div class="productRating d-none d-sm-flex align-items-center">
+                                                    <img src="assets/img/star.png" alt="">
+                                                    <img src="assets/img/star.png" alt="">
+                                                    <img src="assets/img/star.png" alt="">
+                                                    <img src="assets/img/star.png" alt="">
+                                                    <img src="assets/img/star.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="mt-2">
+                                                <button class="cart-button btn btn-theme1 text-white">
+                                                    <span class="add-to-cart">Add to cart</span>
+                                                    <span class="added">Added</span>
+                                                    <img src="assets/img/trollyWhite.svg" class="shoppingCartImg" alt="">
+                                                    <img src="assets/img/fillWhiteBag.svg" class="shoppingBag" alt="">
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a href="javascript:;" class="row mx-0 productCard text-decoration-none">
+                                        <div class="col-12 productImg">
+                                            <div class="overflow-hidden w-100 h-100 position-relative productImgInner">
+                                                <img src="assets/img/pro4.jpg" class="w-100 h-100 proImg" alt="">
+                                                <div class="expandOverlay h-100 w-100 position-absolute top-0 start-0"></div>
+                                                <div class="wishlistBox d-flex align-items-center justify-content-center rounded-circle bg-white">
+                                                    <img src="assets/img/wishlistLightBlue.svg" alt="">
+                                                </div>
+                                                <div class="expandBox d-flex align-items-center justify-content-center bg-dark" data-bs-toggle="modal" data-bs-target="#productPrivew">
+                                                    <img src="assets/img/expand.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 prodetailBox">
+                                            <div class="productDes">Men’s Sunglasses</div>
+                                            <div class="productName">Polarized Sunglasses</div>
+                                            <div class="d-flex align-items-center justify-content-between">
+                                                <div class="productPrice">₹500 <span>₹700</span></div>
+                                                <div class="productRating d-none d-sm-flex align-items-center">
+                                                    <img src="assets/img/star.png" alt="">
+                                                    <img src="assets/img/star.png" alt="">
+                                                    <img src="assets/img/star.png" alt="">
+                                                    <img src="assets/img/star.png" alt="">
+                                                    <img src="assets/img/star.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="mt-2">
+                                                <button class="cart-button btn btn-theme1 text-white">
+                                                    <span class="add-to-cart">Add to cart</span>
+                                                    <span class="added">Added</span>
+                                                    <img src="assets/img/trollyWhite.svg" class="shoppingCartImg" alt="">
+                                                    <img src="assets/img/fillWhiteBag.svg" class="shoppingBag" alt="">
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- web footer starts here -->
+                    <footer class="container-fluid bg-dark d-none d-lg-block webFooter">
+                        <div class="container">
+                            <div class="row row-cols-5 py-5">
+                                <div class="col">
+                                    <ul class="m-0 p-0 list-unstyled">
+                                        <li class="footerLink footerLogo">
+                                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="400px" height="82px" viewBox="0 0 400 82" enable-background="new 0 0 400 82" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"><text transform="matrix(1 0 0 1 69.7529 415.1504)"><tspan x="0" y="0" font-family="'Poppins-ExtraBold'" font-size="72" letter-spacing="-3">A</tspan><tspan x="50.544" y="0" font-family="'Poppins-ExtraBold'" font-size="72" letter-spacing="1">V</tspan><tspan x="105.983" y="0" font-family="'Poppins-ExtraBold'" font-size="72" letter-spacing="3">ONE</tspan></text><g><path d="M54.766,67.227H27.107L22.81,80.229H0L28.54,2.543h25.014l28.43,77.687h-22.92L54.766,67.227z M49.367,50.918l-8.375-25.345l-8.485,25.345H49.367z"></path><path d="M100.386,2.212l17.631,56.199l17.521-56.199h23.03l-26.667,78.018h-27.878L77.356,2.212H100.386z"></path><path d="M225.401,6.124c6.062,3.416,10.835,8.173,14.326,14.27c3.488,6.099,5.234,12.968,5.234,20.607c0,7.641-1.764,14.509-5.291,20.605c-3.527,6.099-8.318,10.854-14.381,14.27c-6.059,3.417-12.725,5.125-19.998,5.125c-7.272,0-13.959-1.708-20.057-5.125c-6.099-3.416-10.908-8.171-14.435-14.27c-3.527-6.097-5.288-12.965-5.288-20.605c0-7.64,1.761-14.509,5.288-20.607c3.527-6.097,8.336-10.854,14.435-14.27c6.098-3.416,12.784-5.125,20.057-5.125C212.637,0.999,219.342,2.708,225.401,6.124z M192.289,26.399c-3.159,3.564-4.741,8.43-4.741,14.602c0,6.023,1.582,10.836,4.741,14.435c3.157,3.601,7.491,5.399,13.003,5.399c5.435,0,9.733-1.799,12.893-5.399c3.156-3.599,4.738-8.411,4.738-14.435c0-6.172-1.563-11.037-4.684-14.602c-3.125-3.563-7.438-5.345-12.947-5.345C199.78,21.055,195.446,22.837,192.289,26.399z"></path><path d="M332.231,80.229h-21.707l-28.648-43.526v43.526h-21.711V2.322h21.711l28.648,44.077V2.322h21.707V80.229z"></path><path d="M371.462,19.513v12.893h25.232v16.419h-25.232v14.104H400v17.301h-50.249V2.212H400v17.301H371.462z"></path></g></svg>
+                                        </li>
+                                        <li class="footerLink footerDesc mt-2 pe-4">
+                                            55 Gallaxy Enque, 2568 steet, 23568 NY
+                                        </li>
+                                        <li class="footerLink"><a href="javascript" class="footerAnchor"><span>Phone:</span>(440) 000 000 0000</a></li>
+                                        <li class="footerLink"><a href="javascript" class="footerAnchor"><span>Email:</span>avon@test.com</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col">
+                                    <div class="footerHeading">INFORMATION</div>
+                                    <ul class="m-0 p-0 list-unstyled">
+                                        <li class="footerLink"><a href="javascript" class="footerAnchor">About Us</a></li>
+                                        <li class="footerLink"><a href="javascript" class="footerAnchor">Contact Us</a></li>
+                                        <li class="footerLink"><a href="javascript" class="footerAnchor">Career</a></li>
+                                        <li class="footerLink"><a href="javascript" class="footerAnchor">My Account</a></li>
+                                        <li class="footerLink"><a href="javascript" class="footerAnchor">Orders and Returns</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col">
+                                    <div class="footerHeading">QUICK SHOP</div>
+                                    <ul class="m-0 p-0 list-unstyled">
+                                        <li class="footerLink"><a href="javascript" class="footerAnchor">Fashion</a></li>
+                                        <li class="footerLink"><a href="javascript" class="footerAnchor">Furniture</a></li>
+                                        <li class="footerLink"><a href="javascript" class="footerAnchor">Home Decor</a></li>
+                                        <li class="footerLink"><a href="javascript" class="footerAnchor">Shoes</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col">
+                                    <div class="footerHeading">CUSTOMER SERVICES</div>
+                                    <ul class="m-0 p-0 list-unstyled">
+                                        <li class="footerLink"><a href="javascript" class="footerAnchor">Help & FAQs</a></li>
+                                        <li class="footerLink"><a href="javascript" class="footerAnchor">Returns Policy</a></li>
+                                        <li class="footerLink"><a href="javascript" class="footerAnchor">Terms & Conditions</a></li>
+                                        <li class="footerLink"><a href="javascript" class="footerAnchor">Privacy Policy</a></li>
+                                        <li class="footerLink"><a href="javascript" class="footerAnchor">Support Center</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col">
+                                    <div class="footerHeading">NEWSLETTER</div>
+                                    <ul class="m-0 p-0 list-unstyled">
+                                        <li class="footerLink footerDesc">
+                                            Enter your email to receive daily news and get 20% off coupon for all items.
+                                        </li>
+                                        <li class="footerLink footerInput mt-3">
+                                            <form class="position-relative">
+                                                <input type="text" class="form-control shadow-none" placeholder="Your Email">
+                                                <button class="btn d-flex align-items-center justify-content-center shadow-none top-0 end-0 position-absolute sendBtn">
+                                                    <img src="assets/img/sendmail.png" alt="">
+                                                </button>
+                                            </form>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row pb-3 align-items-center">
+                                <div class="col footerLink footerDesc">
+                                    © <span id="footerYear"></span> All Rights Reserved
+                                </div>
+                                <div class="col-auto">
+                                    <div class="d-flex align-items-center">
+                                        <button class="btn downloadBtn appleDownload">
+                                            <span class="subtitle">Download on the</span>
+                                            <span class="title">App Store</span>
+                                        </button>
+                                        <button class="btn downloadBtn playDownload ms-3">
+                                            <span class="subtitle">Download on the</span>
+                                            <span class="title">Play Store</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </footer>
+                    <!--web  footer ends here -->
+                </div>
+                <!--mobile footer starts here -->
+                <div class="mobileFooter d-lg-none">
+                    <div class="row mx-0 row-cols-5">
+                        <div class="col bottomBarLink active">
+                            <div class="bottomBarLinkInner position-relative">
+                                <img src="assets/img/homeLightBlue.svg" alt="">
+                                <div class="BottomBarText">Home</div>
+                            </div>
+                        </div>
+                        <div class="col bottomBarLink">
+                            <div class="bottomBarLinkInner position-relative">
+                                <img src="assets/img/categoriesLightBlue.svg" alt="">
+                                <div class="BottomBarText">Category</div>
+                            </div>
+                        </div>
+                        <div class="col bottomBarLink">
+                            <div class="bottomBarLinkInner position-relative">
+                                <img src="assets/img/notificationLightBlue.svg" alt="">
+                                <div class="BottomBarText">Notification</div>
+                            </div>
+                        </div>
+                        <div class="col bottomBarLink">
+                            <div class="bottomBarLinkInner position-relative">
+                                <img src="assets/img/wishlistLightBlue.svg" alt="">
+                                <div class="BottomBarText">Wishlist</div>
+                            </div>
+                        </div>
+                        <div class="col bottomBarLink" data-bs-toggle="offcanvas" data-bs-target="#cartOffcanvas" aria-controls="cartOffcanvas">
+                            <div class="bottomBarLinkInner position-relative">
+                                <img src="assets/img/bagLightBlue.svg" alt="">
+                                <div class="BottomBarText">Cart</div>
+                                <span class="cartVal d-inline-flex align-items-center justify-content-center rounded-circle bg-dark text-white position-absolute">2</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--mobile footer ends here -->
+            </div>
+        </div>
+    </div>
+    
+
+<!-- search offcanvas -->
+
+<div class="offcanvas offcanvas-top searchOffcanvas" tabindex="-1" id="searchOffcanvas" aria-labelledby="searchOffcanvasLabel">
+    <div class="offcanvas-header px-md-3 px-lg-5">
+        <div class="title" id="searchOffcanvasLabel">What are you looking for?</div>
+        <button type="button" class="closeBtn shadow-none" data-bs-dismiss="offcanvas" aria-label="Close">
+            <img src="assets/img/crossLightBlue.svg" alt="">
+        </button>
+    </div>
+    <div class="offcanvas-body px-md-3 px-lg-5 py-2">
+        <div class="position-relative">
+            <input type="text" class="form-control shadow-none w-100 searchInput" placeholder="Search for products, brands and more">
+            <button class="btn shadow-none position-absolute top-50 searchBtn">
+                <img src="assets/img/searchLightBlue.svg" alt="" class="">
+            </button>
+        </div>
+    </div>
+</div>
+
+<!-- cart offcanvas -->
+<div class="offcanvas offcanvas-end cartOffcanvas" tabindex="-1" id="cartOffcanvas" aria-labelledby="cartOffcanvasLabel">
+    <div class="offcanvas-header border-bottom">
+        <div class="title" id="cartOffcanvasLabel">Your Cart</div>
+        <button type="button" class="closeBtn shadow-none" data-bs-dismiss="offcanvas" aria-label="Close">
+            <img src="assets/img/crossLightBlue.svg" alt="">
+        </button>
+    </div>
+    <div class="offcanvas-body py-0">
+        <row class="mx-0">
+            <div class="col-12 cartCard">
+                <a href="javascript:;" class="row mx-0 cartCardInner text-decoration-none">
+                    <div class="col-auto ps-0">
+                        <div class="cartProImg">
+                            <img src="assets/img/pro1.jpg" alt="" class="w-100 h-100">
+                        </div>
+                    </div>
+                    <div class="col px-0">
+                        <div class="row">
+                            <div class="col cartProName align-items-center">Women Colorblock Sneakers</div>
+                            <div class="col-auto cartRemoveImg">
+                                <img src="assets/img/crossLightBlue.svg" alt="">
+                            </div>
+                            <div class="productRating d-none d-sm-flex align-items-center mb-1">
+                                <img src="assets/img/star.png" alt="">
+                                <img src="assets/img/star.png" alt="">
+                                <img src="assets/img/star.png" alt="">
+                                <img src="assets/img/star.png" alt="">
+                                <img src="assets/img/star.png" alt="">
+                            </div>
+                            <div class="col-12 cartProColor">Sneakers & Keds</div>
+                            <div class="col cartProPrice">₹500 <span>₹700</span></div>
+                            <div class="col-auto cartPlusMinus d-flex">
+                                <span class="decrementBtn">-</span>
+                                <span class="valueBox">1</span>
+                                <span class="incrementBtn">+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-12 cartCard">
+                <a href="javascript:;" class="row mx-0 cartCardInner text-decoration-none">
+                    <div class="col-auto ps-0">
+                        <div class="cartProImg">
+                            <img src="assets/img/pro2.jpg" alt="" class="w-100 h-100">
+                        </div>
+                    </div>
+                    <div class="col px-0">
+                        <div class="row align-items-center">
+                            <div class="col cartProName">Cotton Lace Blouse</div>
+                            <div class="col-auto cartRemoveImg">
+                                <img src="assets/img/crossLightBlue.svg" alt="">
+                            </div>
+                            <div class="productRating d-none d-sm-flex align-items-center mb-1">
+                                <img src="assets/img/star.png" alt="">
+                                <img src="assets/img/star.png" alt="">
+                                <img src="assets/img/star.png" alt="">
+                                <img src="assets/img/star.png" alt="">
+                                <img src="assets/img/star.png" alt="">
+                            </div>
+                            <div class="col-12 cartProColor">Women’s T-shirt</div>
+                            <div class="col cartProPrice">₹500 <span>₹700</span></div>
+                            <div class="col-auto cartPlusMinus d-flex">
+                                <span class="decrementBtn">-</span>
+                                <span class="valueBox">1</span>
+                                <span class="incrementBtn">+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </row>
+    </div>
+    <div class="offcanvas-footer p-3 border-top">
+        <div class="row">
+            <div class="col subtotal">SubTotal:</div>
+            <div class="col-auto subtotalValue">₹1000</div>
+            <div class="col-12 mt-2">
+                <button class="btn btn-theme1 addToCartBtn btnStyle1 w-100">View Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- mobile menu offcanvas -->
+
+<div class="offcanvas offcanvas-start mobileMenuOffcanvas" tabindex="-1" id="mobileMenuOffcancas" aria-labelledby="mobileMenuOffcancasLabel">
+    <div class="offcanvas-header border-bottom">
+        <div class="logo" id="mobileMenuOffcancasLabel">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="400px" height="82px" viewBox="0 0 400 82" enable-background="new 0 0 400 82" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"><text transform="matrix(1 0 0 1 69.7529 415.1504)"><tspan x="0" y="0" font-family="'Poppins-ExtraBold'" font-size="72" letter-spacing="-3">A</tspan><tspan x="50.544" y="0" font-family="'Poppins-ExtraBold'" font-size="72" letter-spacing="1">V</tspan><tspan x="105.983" y="0" font-family="'Poppins-ExtraBold'" font-size="72" letter-spacing="3">ONE</tspan></text><g><path d="M54.766,67.227H27.107L22.81,80.229H0L28.54,2.543h25.014l28.43,77.687h-22.92L54.766,67.227z M49.367,50.918l-8.375-25.345l-8.485,25.345H49.367z"></path><path d="M100.386,2.212l17.631,56.199l17.521-56.199h23.03l-26.667,78.018h-27.878L77.356,2.212H100.386z"></path><path d="M225.401,6.124c6.062,3.416,10.835,8.173,14.326,14.27c3.488,6.099,5.234,12.968,5.234,20.607c0,7.641-1.764,14.509-5.291,20.605c-3.527,6.099-8.318,10.854-14.381,14.27c-6.059,3.417-12.725,5.125-19.998,5.125c-7.272,0-13.959-1.708-20.057-5.125c-6.099-3.416-10.908-8.171-14.435-14.27c-3.527-6.097-5.288-12.965-5.288-20.605c0-7.64,1.761-14.509,5.288-20.607c3.527-6.097,8.336-10.854,14.435-14.27c6.098-3.416,12.784-5.125,20.057-5.125C212.637,0.999,219.342,2.708,225.401,6.124z M192.289,26.399c-3.159,3.564-4.741,8.43-4.741,14.602c0,6.023,1.582,10.836,4.741,14.435c3.157,3.601,7.491,5.399,13.003,5.399c5.435,0,9.733-1.799,12.893-5.399c3.156-3.599,4.738-8.411,4.738-14.435c0-6.172-1.563-11.037-4.684-14.602c-3.125-3.563-7.438-5.345-12.947-5.345C199.78,21.055,195.446,22.837,192.289,26.399z"></path><path d="M332.231,80.229h-21.707l-28.648-43.526v43.526h-21.711V2.322h21.711l28.648,44.077V2.322h21.707V80.229z"></path><path d="M371.462,19.513v12.893h25.232v16.419h-25.232v14.104H400v17.301h-50.249V2.212H400v17.301H371.462z"></path></g></svg>
+        </div>
+        <button type="button" class="closeBtn shadow-none" data-bs-dismiss="offcanvas" aria-label="Close">
+            <img src="assets/img/crossLightBlue.svg" alt="">
+        </button>
+    </div>
+    <div class="offcanvas-body py-2">
+        <ul class="list-unstyled m-0 p-0 mobMenuUl">
+            <li class="mobMenuLi"><a class="mobMenuAnchor w-100 py-2 d-inline-block" href="javascript:;">Home</a></li>
+            <li class="mobMenuLi"><a class="mobMenuAnchor w-100 py-2 d-inline-block" href="javascript:;">About Us</a></li>
+            <li class="mobMenuLi"><a class="mobMenuAnchor w-100 py-2 d-inline-block" href="javascript:;">Order & Returns</a></li>
+            <li class="mobMenuLi"><a class="mobMenuAnchor w-100 py-2 d-inline-block" href="javascript:;">Help Center</a></li>
+            <li class="mobMenuLi"><a class="mobMenuAnchor w-100 py-2 d-inline-block" href="javascript:;">Career</a></li>
+            <li class="mobMenuLi"><a class="mobMenuAnchor w-100 py-2 d-inline-block" href="javascript:;">FAQ's</a></li>
+            <li class="mobMenuLi"><a class="mobMenuAnchor w-100 py-2 d-inline-block" href="javascript:;">Contact Us</a></li>
+            <li class="mobMenuLi">
+                <a class="mobMenuAnchor w-100 py-2 d-inline-block mobMenuCollapseAnchor collapsed" data-bs-toggle="collapse" href="#mobMenuCollapse1" role="button" aria-expanded="false" aria-controls="mobMenuCollapse1">Terms, Policies & Licenses</a>
+                <div class="collapse" id="mobMenuCollapse1">
+                    <ul class="list-unstyled m-0 p-0 mobMenuUl ps-3">
+                        <li class="mobMenuLi"><a class="mobMenuAnchor w-100 py-2 d-inline-block" href="javascript:;">Terms Of Use</a></li>
+                        <li class="mobMenuLi"><a class="mobMenuAnchor w-100 py-2 d-inline-block" href="javascript:;">Return Policy</a></li>
+                        <li class="mobMenuLi"><a class="mobMenuAnchor w-100 py-2 d-inline-block" href="javascript:;">Privacy Policy</a></li>
+                        <li class="mobMenuLi"><a class="mobMenuAnchor w-100 py-2 d-inline-block" href="javascript:;">License</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+    <!-- Login Modal -->
+    <div class="modal fade LoginModal" id="LoginModal" tabindex="-1" aria-labelledby="LoginModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content border-0 rounded-0">
+            <div class="modal-body p-0">
+                <div class="row mx-0">
+                    <div class="col-lg-6 px-0 d-none d-lg-block">
+                        <img src="assets/img/login.jpg" class="w-100" alt="">
+                    </div>
+                    <div class="col-lg-6 px-0 d-flex flex-column">
+                        <form class="row mx-0 p-3 g-2 loginForm needs-validation" novalidate>
+                            <div class="col-12 text-center heading">Login</div>
+                            <div class="col-12 mb-1">
+                                <input type="text" class="form-control shadow-none inputStyle1" placeholder="Enter email or mobile number" required>
+                                <div class="invalid-feedback">
+                                    Please enter email or mobile number
+                                </div>
+                            </div>
+                            <div class="col-12 mb-1">
+                                <input type="text" class="form-control shadow-none inputStyle1" placeholder="Enter password" required>
+                                <div class="invalid-feedback">
+                                    Please enter password
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-check">
+                                    <input class="form-check-input shadow-none" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Remember Me
+                                    </label>
+                                </div>
+                            </div>
+                            <a href="javascript:;" class="col-auto forgetPass">Forget Password?</a>
+                            <div class="col-12 mb-1">
+                                <button type="submit" class="btn w-100 btn-theme1 text-white btnStyle1 d-flex align-items-center justify-content-center shadow-none loginBtn">
+                                    <span class="spinner-grow spinner-grow-sm me-2 spinner d-none" role="status" aria-hidden="true"></span>
+                                    <span class="spinnerText d-none">Loading...</span>
+                                    <span class="mainText">Login</span>
+                                </button>
+                            </div>
+                        </form>
+                        <div class="row mx-0 p-3 g-2 flex-fill">
+                            <div class="col-12 text-center createAccount mt-auto">
+                                New to Avon? <a href="javascript:;" class="text-decoration-none" data-bs-target="#registerModal" data-bs-toggle="modal">Create Account</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- register modal -->
+    <div class="modal fade LoginModal" id="registerModal" aria-hidden="true" aria-labelledby="registerModalLabel" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content border-0 rounded-0">
+                <div class="modal-body p-0">
+                    <div class="row mx-0">
+                        <div class="col-lg-6 px-0 d-none d-lg-block">
+                            <img src="assets/img/login.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="col-lg-6 px-0 d-flex flex-column">
+                            <form class="row mx-0 p-3 g-2 registerForm needs-validation" novalidate>
+                                <div class="col-12 text-center heading">Register</div>
+                                <div class="col-12 mb-1">
+                                    <input type="text" class="form-control shadow-none inputStyle1" placeholder="Enter email or mobile number" required>
+                                    <div class="invalid-feedback">
+                                        Please enter email or mobile number
+                                    </div>
+                                </div>
+                                <div class="col-12 mb-1">
+                                    <input type="text" class="form-control shadow-none inputStyle1" placeholder="Enter password" required>
+                                    <div class="invalid-feedback">
+                                        Please enter password
+                                    </div>
+                                </div>
+                                <div class="col-12 mb-1">
+                                    <button type="submit" class="btn w-100 btn-theme1 text-white btnStyle1 d-flex align-items-center justify-content-center shadow-none registerBtn">
+                                        <span class="spinner-grow spinner-grow-sm me-2 spinner d-none" role="status" aria-hidden="true"></span>
+                                        <span class="spinnerText d-none">Loading...</span>
+                                        <span class="mainText">Register</span>
+                                    </button>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-check">
+                                        <input class="form-check-input shadow-none" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            By continuing, you agree to Avone's <a href="javascript:;" class="text-decoration-none">terms & conditions</a> and <a href="javascript:;" class="text-decoration-none">privacy policy</a>
+                                        </label>
+                                    </div>
+                                </div>
+                            </form>
+                            <div class="row mx-0 p-3 g-2 flex-fill">
+                                <div class="col-12 text-center createAccount mt-auto">
+                                    Already have an account? <a href="javascript:;" class="text-decoration-none" data-bs-target="#LoginModal" data-bs-toggle="modal">Sign In</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap Js -->
+    <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- swiper -->
+    <script src="assets/libs/swiper/swiper-bundle.min.js"></script>
+    <!-- select 2 js -->
+    <script src="assets/libs/select2/select2.min.js"></script>
+    <!-- Custom Js -->
+    <script src="assets/js/index.js"></script>
+</body>
+</html>

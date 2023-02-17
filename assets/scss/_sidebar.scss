@@ -1,0 +1,498 @@
+
+
+.categoryBar {
+    border: 1px solid $gray-200;
+    border-radius: 4px;
+    & .fllterHeader {
+        padding: 10px 0;
+        border-bottom: 1px solid $gray-200;
+        & .filterheading {
+            font-size: 20px;
+            font-weight: 500;
+            color: $gray-900;
+        }
+        & .clearBtn {
+            font-size: 14px;
+            color: $theme1;
+            user-select: none;
+            cursor: pointer;
+        }
+        & .closeBtn {
+            & img {
+                filter: brightness(0.5);
+                height: 12px;
+            }
+        }
+    }
+    & .filterBody {
+        & .filterAnchor {
+            width: 100%;
+            color: $gray-900;
+            text-decoration: none;
+            font-size: 14px;
+            padding: 12px 0;
+            font-weight: 400;
+            display: inline-flex;
+            background-repeat: no-repeat;
+            background-position: right 0 top 16px;
+            background-size: 12px;
+            &.collapsed {
+                background-image: url(../img/plusLightBlue.svg);
+                border-bottom: 1px solid $gray-200;
+            }
+            &:not(.collapsed) {
+                background-image: url(../img/minusLightBlue.svg);
+            }
+        }
+        & .form-check-input {
+            border: 1px solid $theme1 !important;
+            width: 0.9em !important;
+            height: 0.9em !important;
+            margin-top: 0.4em !important;
+            &:checked {
+                background-color: $theme1 !important;
+            }
+        }
+        & .form-check-label {
+            font-size: 12px;
+            cursor: pointer;
+            user-select: none;
+        }
+        & .filterSearch {
+            & img {
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                left: 10px;
+                filter: brightness(0.5);
+                height: 14px;
+            }
+            & input {
+                padding-left: 30px;
+                font-size: 14px;
+            }
+        }
+        & .moreAnchor {
+            font-size: 13px;
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+    }
+    & .filterFooter {
+        border-top: 1px solid $gray-200;
+        & .btn {
+            font-size: 12px !important;
+        }
+    }
+}
+
+@mixin filterBar-mixin-min-sm(){
+    .categoryBar {
+    & .fllterHeader {
+        & .filterheading {
+        }
+        & .clearBtn {
+        }
+        & .closeBtn {
+            & img {
+            }
+        }
+    }
+    & .filterBody {
+        & .filterAnchor {
+            &.collapsed {
+            }
+            &:not(.collapsed) {
+            }
+        }
+        & .form-check-input {
+            &:checked {
+            }
+        }
+        & .form-check-label {
+        }
+        & .filterSearch {
+            & img {
+            }
+            & input {
+            }
+        }
+    }
+    & .filterFooter {
+    }
+}
+};
+@mixin filterBar-mixin-min-md(){
+    .categoryBar {
+    & .fllterHeader {
+        & .filterheading {
+        }
+        & .clearBtn {
+        }
+        & .closeBtn {
+            & img {
+            }
+        }
+    }
+    & .filterBody {
+        & .filterAnchor {
+            &.collapsed {
+            }
+            &:not(.collapsed) {
+            }
+        }
+        & .form-check-input {
+            &:checked {
+            }
+        }
+        & .form-check-label {
+        }
+        & .filterSearch {
+            & img {
+            }
+            & input {
+            }
+        }
+    }
+    & .filterFooter {
+    }
+}
+};
+@mixin filterBar-mixin-min-lg(){
+    .categoryBar {
+    & .fllterHeader {
+        & .filterheading {
+        }
+        & .clearBtn {
+        }
+        & .closeBtn {
+            & img {
+            }
+        }
+    }
+    & .filterBody {
+        & .filterAnchor {
+            &.collapsed {
+            }
+            &:not(.collapsed) {
+            }
+        }
+        & .form-check-input {
+            &:checked {
+            }
+        }
+        & .form-check-label {
+        }
+        & .filterSearch {
+            & img {
+            }
+            & input {
+            }
+        }
+    }
+    & .filterFooter {
+    }
+}
+};
+@mixin filterBar-mixin-min-xl(){
+    .categoryBar {
+    & .fllterHeader {
+        & .filterheading {
+        }
+        & .clearBtn {
+        }
+        & .closeBtn {
+            & img {
+            }
+        }
+    }
+    & .filterBody {
+        & .filterAnchor {
+            &.collapsed {
+            }
+            &:not(.collapsed) {
+            }
+        }
+        & .form-check-input {
+            &:checked {
+            }
+        }
+        & .form-check-label {
+        }
+        & .filterSearch {
+            & img {
+            }
+            & input {
+            }
+        }
+    }
+    & .filterFooter {
+    }
+}
+};
+@mixin filterBar-mixin-min-xxl(){
+    .categoryBar {
+    & .fllterHeader {
+        & .filterheading {
+        }
+        & .clearBtn {
+        }
+        & .closeBtn {
+            & img {
+            }
+        }
+    }
+    & .filterBody {
+        & .filterAnchor {
+            &.collapsed {
+            }
+            &:not(.collapsed) {
+            }
+        }
+        & .form-check-input {
+            &:checked {
+            }
+        }
+        & .form-check-label {
+        }
+        & .filterSearch {
+            & img {
+            }
+            & input {
+            }
+        }
+    }
+    & .filterFooter {
+    }
+}
+};
+@mixin filterBar-mixin-max-xl(){
+    .categoryBar {
+    & .fllterHeader {
+        & .filterheading {
+        }
+        & .clearBtn {
+        }
+        & .closeBtn {
+            & img {
+            }
+        }
+    }
+    & .filterBody {
+        & .filterAnchor {
+            &.collapsed {
+            }
+            &:not(.collapsed) {
+            }
+        }
+        & .form-check-input {
+            &:checked {
+            }
+        }
+        & .form-check-label {
+        }
+        & .filterSearch {
+            & img {
+            }
+            & input {
+            }
+        }
+    }
+    & .filterFooter {
+    }
+}
+};
+@mixin filterBar-mixin-max-1300(){
+    .categoryBar {
+    & .fllterHeader {
+        & .filterheading {
+        }
+        & .clearBtn {
+        }
+        & .closeBtn {
+            & img {
+            }
+        }
+    }
+    & .filterBody {
+        & .filterAnchor {
+            &.collapsed {
+            }
+            &:not(.collapsed) {
+            }
+        }
+        & .form-check-input {
+            &:checked {
+            }
+        }
+        & .form-check-label {
+        }
+        & .filterSearch {
+            & img {
+            }
+            & input {
+            }
+        }
+    }
+    & .filterFooter {
+    }
+}
+};
+@mixin filterBar-mixin-max-lg(){
+    .categoryBar {
+    & .fllterHeader {
+        & .filterheading {
+        }
+        & .clearBtn {
+        }
+        & .closeBtn {
+            & img {
+            }
+        }
+    }
+    & .filterBody {
+        & .filterAnchor {
+            &.collapsed {
+            }
+            &:not(.collapsed) {
+            }
+        }
+        & .form-check-input {
+            &:checked {
+            }
+        }
+        & .form-check-label {
+        }
+        & .filterSearch {
+            & img {
+            }
+            & input {
+            }
+        }
+    }
+    & .filterFooter {
+    }
+}
+};
+@mixin filterBar-mixin-max-md(){
+    .categoryBar {
+        border: none !important;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    & .fllterHeader {
+        & .filterheading {
+            font-size: 16px !important;
+        }
+        & .clearBtn {
+        }
+        & .closeBtn {
+            & img {
+            }
+        }
+    }
+    & .filterBody {
+        flex: 1 1 auto;
+        overflow: hidden auto;
+        & .filterAnchor {
+            font-size: 13px !important;
+            &.collapsed {
+            }
+            &:not(.collapsed) {
+            }
+        }
+        & .form-check-input {
+            &:checked {
+            }
+        }
+        & .form-check-label {
+            font-size: 12px !important;
+        }
+        & .filterSearch {
+            & img {
+                height: 12px !important;
+            }
+            & input {
+                font-size: 12px !important
+            }
+        }
+    }
+    & .filterFooter {
+    }
+}
+};
+@mixin filterBar-mixin-max-sm(){
+    .categoryBar {
+    & .fllterHeader {
+        & .filterheading {
+        }
+        & .clearBtn {
+        }
+        & .closeBtn {
+            & img {
+            }
+        }
+    }
+    & .filterBody {
+        & .filterAnchor {
+            &.collapsed {
+            }
+            &:not(.collapsed) {
+            }
+        }
+        & .form-check-input {
+            &:checked {
+            }
+        }
+        & .form-check-label {
+        }
+        & .filterSearch {
+            & img {
+            }
+            & input {
+            }
+        }
+    }
+    & .filterFooter {
+    }
+}
+};
+@mixin filterBar-mixin-max-xs(){
+    .categoryBar {
+    & .fllterHeader {
+        & .filterheading {
+        }
+        & .clearBtn {
+        }
+        & .closeBtn {
+            & img {
+            }
+        }
+    }
+    & .filterBody {
+        & .filterAnchor {
+            &.collapsed {
+            }
+            &:not(.collapsed) {
+            }
+        }
+        & .form-check-input {
+            &:checked {
+            }
+        }
+        & .form-check-label {
+        }
+        & .filterSearch {
+            & img {
+            }
+            & input {
+            }
+        }
+    }
+    & .filterFooter {
+    }
+}
+};
+
+
